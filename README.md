@@ -1,6 +1,48 @@
-# Getting Started with Create React App
+Table of Contents
+- [Hangman Game by: Eustachio](#hangman-game-by-eustachio)
+- [Here some rules to play the game:](#here-some-rules-to-play-the-game)
+- [Screenshots](#screenshots)
+  - [Getting Started with Create React App](#getting-started-with-create-react-app)
+  - [Available Scripts](#available-scripts)
+    - [`npm start`](#npm-start)
+    - [`npm test`](#npm-test)
+    - [`npm run build`](#npm-run-build)
+    - [`npm run eject`](#npm-run-eject)
+  - [Credits](#credits)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+----
+# Hangman Game by: Eustachio
+This project corresponds to the final task of the Web Development Bootcamp at HyperionDev.
+
+I remember I used to play this game with my school friends on a piece of paper, this is why I choose to design the app as if it's on a piece of paper and handwriting text style. I hope you like it!
+
+You can either type the keys on your keyboard or click on any key on the keybord of the game.
+
+Words come randomly from an public API, you can find out more here http://random-word-api.herokuapp.com/home
+
+# Here some rules to play the game:
+- Click on the Start Game button"
+- You have to guess the hidden word"
+- Type a letter, or click on a letter to see if it's correct or not"
+- Correct letters will show in colour green"
+- Wrong letters will show in colour red-ish"
+- If the number of wrong attempts is equal to 10, you'll be hung :(
+- You win when you guess correctly the hidden word :)
+- Enjoy and Good Luck!
+
+# Screenshots
+![screenshot02](misc/screenshot02.png)
+![screenshot01](misc/screenshot01.png)
+![screenshot03](misc/screenshot03.png)
+![screenshot04](misc/screenshot04.png)
+![screenshot05](misc/screenshot05.png)
+
+
+To install the Hangman App, please follow the instructions below:
+
+## Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and TailwindCSS for the styling.
 
 ## Available Scripts
 
@@ -39,32 +81,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Credits
+ - Eustachio is the main creator of this project. Find more projects by him here [github.com/eustachi0](https://github.com/eustachi0)
